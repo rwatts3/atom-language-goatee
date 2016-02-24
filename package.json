@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/rwatts3/atom-language-goatee.git"
   },
+  "license": "MIT",
   "readmeFilename": "README.md",
   "activationCommands": {
     "atom-workspace": "goatee:toggle"
