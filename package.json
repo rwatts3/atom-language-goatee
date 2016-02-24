@@ -1,0 +1,22 @@
+{
+  "name": "Goatee Snippets",
+  "main": "./lib/goatee",
+  "version": "0.4.0",
+  "description": "Snippets for the Goatee Templating Engine.",
+  "author": "Ryan Watts",
+  "keywords": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rwatts3/goatee-snippets.git"
+  },
+  "readmeFilename": "README.md",
+  "activationCommands": {
+    "atom-workspace": "goatee-snippets:toggle"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
