@@ -1,5 +1,5 @@
-# sv-snippets package
+# Goatee Template Engine Language
 
-Simpleview Snippets Package
+Readme coming soon...
 
 

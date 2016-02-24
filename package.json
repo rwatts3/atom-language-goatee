@@ -1,18 +1,26 @@
 {
-  "name": "Goatee Snippets",
+  "name": "language-goatee",
   "main": "./lib/goatee",
-  "version": "0.4.0",
-  "description": "Snippets for the Goatee Templating Engine.",
-  "author": "Ryan Watts",
+  "version": "0.1.0",
+  "description": "Language package for the Goatee Template Engine.",
+  "keywords": [
+    "language",
+    "goatee"
+  ],
+  "author": {
+    "name": "rwatts",
+    "email": "ryandwatts@gmail.com",
+    "url": "https://github.com/rwatts3"
+  },
   "keywords": [
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/rwatts3/goatee-snippets.git"
+    "url": "git+https://github.com/rwatts3/atom-language-goatee.git"
   },
   "readmeFilename": "README.md",
   "activationCommands": {
-    "atom-workspace": "goatee-snippets:toggle"
+    "atom-workspace": "goatee:toggle"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
