@@ -1,13 +1,13 @@
 {
   "name": "language-goatee",
   "main": "./lib/goatee",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Language package for the Goatee Template Engine.",
   "keywords": [],
   "author": {
     "name": "rwatts",
     "email": "ryandwatts@gmail.com",
-    "url": "https://github.com/rwatts3"
+    "url": "https://github.com/rwatts3/"
   },
   "repository": {
     "type": "git",
