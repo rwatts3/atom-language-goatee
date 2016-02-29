@@ -1,0 +1,76 @@
+'scopeName': 'text.html.goatee'
+'name': 'HTML (Goatee)'
+'fileTypes': [
+  'handlebars',
+  'goatee',
+  'spacebars',
+  'html'
+  
+]
+'patterns': [
+  {
+    'include': '#comment'
+  }
+  {
+    'include': '#block-expression-start'
+  }
+  {
+    'include': '#block-expression-end'
+  }
+  {
+    'include': '#escape'
+  }
+  {
+    'include': '#template'
+  }
+  {
+    'include': 'text.html.basic'
+  }
+]
+'repository':
+  'comment':
+    'begin': '\\{\\{!'
+    'end': '\\}\\}'
+    'name': 'comment.block.goatee'
+  'block-expression-start':
+    'begin': '\\{\\{([#^]\\s*)([\\w\\.]*)'
+    'beginCaptures':
+      '0':
+        'name': 'entity.name.tag.goatee'
+      '1':
+        'name': 'punctuation.definition.block.begin.goatee'
+      '2':
+        'name': 'entity.name.function.goatee'
+    'end': '\\s*\\}\\}'
+    'endCaptures':
+      '0':
+        'name': 'entity.name.tag.goatee'
+    'name': 'meta.tag.template.goatee'
+  'block-expression-end':
+    'begin': '\\{\\{([/]\\s*)([\\w\\.]*)'
+    'beginCaptures':
+      '0':
+        'name': 'entity.name.tag.goatee'
+      '1':
+        'name': 'punctuation.definition.block.end.goatee'
+      '2':
+        'name': 'entity.name.function.goatee'
+    'end': '\\s*\\}\\}'
+    'endCaptures':
+      '0':
+        'name': 'entity.name.tag.goatee'
+    'name': 'meta.tag.template.goatee'
+  'escape':
+    'begin': '\\{\\{\\{'
+    'end': '\\}\\}\\}'
+    'captures':
+      '0':
+        'name': 'entity.name.tag.goatee'
+    'name': 'meta.tag.template.raw.goatee'
+  'template':
+    'begin': '\\{\\{[<>]?'
+    'end': '\\}\\}'
+    'captures':
+      '0':
+        'name': 'entity.name.tag.goatee'
+    'name': 'meta.tag.template.goatee'
