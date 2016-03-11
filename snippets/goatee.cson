@@ -2,7 +2,7 @@
 	'Goatee ~plugins':
 		'prefix': 'gt-plugins'
 		'body': """
-			{{~plugins.${1:namespace}.${2:method}(${3:options}) }}
+			{{~plugins.${1:namespace}.${2:method}(${3:options})}}
 		"""
 	'Goatee addPlugin':
 		'prefix': 'gt-addplugin'
@@ -12,5 +12,5 @@
 	'Goatee setVar':
 		'prefix': 'gt-setVar'
 		'body': """
-			{{~setVar("${1:key}", ${2:value}) }}
+			{{~setVar("${1:key}", ${2:value})}}
 		"""
