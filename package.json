@@ -1,7 +1,6 @@
 {
   "name": "language-goatee",
-  "main": "./lib/goatee",
-  "version": "0.2.2",
+  "version": "0.5.1",
   "description": "Language package for the Goatee Template Engine.",
   "keywords": [],
   "author": {
@@ -19,7 +18,8 @@
     "atom-workspace": "goatee:toggle"
   },
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": "*",
+	"node": "*"
   },
   "dependencies": {}
 }
