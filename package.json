@@ -1,6 +1,6 @@
 {
   "name": "language-goatee",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Atom Language package for the Goatee Template Engine.",
   "keywords": [
     "atom",
